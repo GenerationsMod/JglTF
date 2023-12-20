@@ -205,12 +205,12 @@ class DefaultBufferBuilderStrategy implements BufferBuilderStrategy
     private void processSkinModel(SkinModel skinModel)
     {
         AccessorModel ibm = skinModel.getInverseBindMatrices();
-        if(ibm != null) {
+        if (ibm != null)
+        {
             bufferStructureBuilder.addAccessorModel(
-                    "inverse bind matrices", (DefaultAccessorModel) ibm);
+                "inverse bind matrices", (DefaultAccessorModel) ibm);
             bufferStructureBuilder.createBufferViewModel("skin", null);
         }
-
     }
     
     @Override
