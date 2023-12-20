@@ -204,5 +204,14 @@
       </plugins>
     </pluginManagement>
   </build>
-
+  <distributionManagement>
+    <repository>
+      <id>generations-releases</id>
+      <url>https://maven.generations.gg/releases</url>
+    </repository>
+    <snapshotRepository>
+      <id>generations-snapshots</id>
+      <url>https://maven.generations.gg/snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
